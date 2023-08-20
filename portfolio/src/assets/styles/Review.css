@@ -1,0 +1,58 @@
+.review-wrapper {
+  background: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 96px;
+}
+
+.review-tag {
+  margin-top: 96px;
+  margin-bottom: 16px;
+}
+
+.review-tag > button {
+  border-radius: 12px;
+  background: #374151;
+  display: flex;
+  padding: 4px 20px;
+  justify-content: center;
+  align-items: center;
+  color: #d1d5db;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  outline: none;
+  border: none;
+}
+
+.review-desc{
+    margin-bottom: 48px ;
+}
+
+.review-desc > p {
+  color: #d1d5db;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.review-card-shown{
+  display: flex;
+  gap: 48px;
+  margin-bottom: 96px;
+  width: 70%;
+}
+
+
+@media screen and (max-width:1200px){
+  .review-card-shown{
+    flex-direction: column;
+    width: 70%;
+  }
+}

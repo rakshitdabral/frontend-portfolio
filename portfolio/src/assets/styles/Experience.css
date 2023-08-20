@@ -1,0 +1,57 @@
+.experience-wrapper {
+  background-color: #1f2937;
+  margin-top: 96px;
+  display: flex;
+  padding: 96px 80px;
+  flex-direction: column;
+}
+
+.experience-tag {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.experience-desc {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.experience-desc > p {
+  color: #d1d5db;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.experience-tag > button {
+  border-radius: 12px;
+  background: #374151;
+  display: flex;
+  padding: 4px 20px;
+  justify-content: center;
+  align-items: center;
+  color: #d1d5db;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  outline: none;
+  border: none;
+}
+
+.experience-card-output {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}

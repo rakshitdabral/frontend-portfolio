@@ -1,0 +1,47 @@
+.experience-card {
+  display: flex;
+  width:  800px;
+  padding: 32px;
+  align-items: flex-start;
+  border-radius: 12px;
+  background: #111827 0.1;
+  box-shadow: 0px 25px 25px 0px rgba(0, 0, 0, 0.23);
+  justify-content: space-around;
+}
+
+.header-card {
+  margin-bottom: 16px;  
+
+   
+}
+
+.header-card > h3 {
+  color: #f9fafb;
+
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.experience-card-description , .experience-card-date{
+  color: #d1d5db;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+
+@media screen and (max-width: 1000px){
+    .experience-card{
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .header-card{
+        margin-top: 16px;
+    }
+}

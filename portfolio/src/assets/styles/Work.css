@@ -1,0 +1,50 @@
+.work-tag {
+  margin-top: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.work-card-shower{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.work-tag > button {
+  border-radius: 12px;
+  background: #374151;
+  display: flex;
+  padding: 4px 20px;
+  justify-content: center;
+  align-items: center;
+  color: #d1d5db;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  outline: none;
+  border: none;
+}
+
+.work-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 16px 0px 48px 0px;
+}
+
+.work-desc > p {
+  color: #d1d5db;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
