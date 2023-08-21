@@ -80,6 +80,9 @@ body {
     display: none;
   }
 
+  .nav-links-mobile > li{
+    margin-left: 10px;
+  }
   .nav-links-mobile {
     overflow: hidden;
     min-height: 100vh;
@@ -88,7 +91,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 10px;
     list-style: none;
     left: 0;
     top: 70px;

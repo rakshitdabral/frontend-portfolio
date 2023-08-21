@@ -4,6 +4,7 @@ import "../../assets/styles/Navbar.css";
 function Navbar() {
 
   const [isMobile, setMobile] = useState(false)
+  isMobile? document.body.style.overflow = "hidden" : document.body.style.overflow = "auto"
   return (
     <>
       <div className="navigation-wrapper">
