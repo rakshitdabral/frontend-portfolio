@@ -6,7 +6,7 @@ function Workcard(props) {
   const [isOdd, setOdd] = useState(true);
   
   useEffect(() => {
-      if(props.serial%2==0){
+      if(props.serial%2===0){
         setOdd(false)
       }
   },[props])
