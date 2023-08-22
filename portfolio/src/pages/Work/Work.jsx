@@ -5,7 +5,7 @@ import Worklist from "../../constants/Worklist";
 
 function Work() {
   return (
-    <>
+    <div id="work">
       <div className="work-wrapper">
         <div className="work-tag">
           <button className="work-tagger">Work</button>
@@ -26,7 +26,7 @@ function Work() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

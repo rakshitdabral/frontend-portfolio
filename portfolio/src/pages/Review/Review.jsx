@@ -5,7 +5,7 @@ import "../../assets/styles/Review.css";
 
 function Review() {
   return (
-    <>
+    <div id="testimonials">
       <div className="review-wrapper">
         <div className="review-tag">
           <button>Review</button>
@@ -26,7 +26,7 @@ function Review() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

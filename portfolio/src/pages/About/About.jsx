@@ -3,7 +3,7 @@ import "../../assets/styles/About.css";
 import pic2 from "../../assets/images/Pic2.png";
 function About() {
   return (
-    <>
+    <div  id="about">
       <div className="about-wrapper">
         <div className="container">
           <div className="row-1">
@@ -61,7 +61,7 @@ function About() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 

@@ -5,7 +5,7 @@ import Experiencelist from "../../constants/Experienceslist";
 
 function Experience() {
   return (
-    <>
+    <div className="experience">
       <div className="experience-wrapper">
         <div className="container experience-tag">
           <button className="experience-button">Experience</button>
@@ -26,7 +26,7 @@ function Experience() {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
